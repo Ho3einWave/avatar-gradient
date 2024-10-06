@@ -6,14 +6,14 @@
 # Gradient Avatars React
 
 
-## Installation
+## Installation:
 ```bash
 npm install avatar-gradient
 pnpm install avatar-gradient
 yarn install avatar-gradient
 ```
 
-## Usage
+## Usage:
 ```tsx
 import { Avatar } from "avatar-gradient";
 import "avatar-gradient/dist/style.css";
@@ -29,7 +29,7 @@ export default App;
 
 ```
 
-## Customization
+## Customization:
 ```tsx
 import { Avatar } from "avatar-gradient";
 import "avatar-gradient/dist/style.css";
