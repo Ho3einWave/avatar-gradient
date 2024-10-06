@@ -1,0 +1,71 @@
+{
+    "name": "avatar-gradient",
+    "version": "0.1.1",
+    "type": "module",
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/avatar-gradient.umd.cjs",
+    "module": "./dist/avatar-gradient.js",
+    "exports": {
+        ".": {
+            "import": "./dist/avatar-gradient.js",
+            "require": "./dist/avatar-gradient.umd.cjs"
+        },
+        "./dist/style.css": "./dist/style.css"
+    },
+    "sideEffects": false,
+    "scripts": {
+        "dev": "vite",
+        "prebuild": "rm -rf dist",
+        "build": "tsc -b && vite build",
+        "lint": "eslint .",
+        "preview": "vite preview",
+        "prepublish": "npm run build",
+        "storybook": "storybook dev -p 6006",
+        "build-storybook": "storybook build"
+    },
+    "dependencies": {
+        "@types/node": "^22.7.4",
+        "@typescript-eslint/eslint-plugin": "^8.8.0",
+        "@typescript-eslint/parser": "^8.8.0",
+        "clsx": "^2.1.1",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "@chromatic-com/storybook": "^1.9.0",
+        "@eslint/js": "^9.11.1",
+        "@storybook/addon-essentials": "^8.3.5",
+        "@storybook/addon-interactions": "^8.3.5",
+        "@storybook/addon-links": "^8.3.5",
+        "@storybook/addon-onboarding": "^8.3.5",
+        "@storybook/blocks": "^8.3.5",
+        "@storybook/react": "^8.3.5",
+        "@storybook/react-vite": "^8.3.5",
+        "@storybook/test": "^8.3.5",
+        "@types/react": "^18.3.10",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react-swc": "^3.5.0",
+        "autoprefixer": "^10.4.20",
+        "eslint": "^9.12.0",
+        "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+        "eslint-plugin-react-refresh": "^0.4.12",
+        "eslint-plugin-storybook": "^0.9.0",
+        "globals": "^15.9.0",
+        "path": "^0.12.7",
+        "postcss": "^8.4.47",
+        "storybook": "^8.3.5",
+        "tailwindcss": "^3.4.13",
+        "typescript": "^5.5.3",
+        "typescript-eslint": "^8.7.0",
+        "vite": "^5.4.8",
+        "vite-plugin-dts": "^4.2.3",
+        "vite-tsconfig-paths": "^5.0.1"
+    },
+    "eslintConfig": {
+        "extends": [
+            "plugin:storybook/recommended"
+        ]
+    }
+}
