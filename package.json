@@ -25,16 +25,16 @@
         "storybook": "storybook dev -p 6006",
         "build-storybook": "storybook build"
     },
-    "dependencies": {
-        "@types/node": "^22.7.4",
-        "@typescript-eslint/eslint-plugin": "^8.8.0",
-        "@typescript-eslint/parser": "^8.8.0",
+    "peerDependencies": {
         "clsx": "^2.1.1",
         "react": "^18.3.1",
         "react-dom": "^18.3.1"
     },
     "devDependencies": {
         "@chromatic-com/storybook": "^1.9.0",
+        "@types/node": "^22.7.4",
+        "@typescript-eslint/eslint-plugin": "^8.8.0",
+        "@typescript-eslint/parser": "^8.8.0",
         "@eslint/js": "^9.11.1",
         "@storybook/addon-essentials": "^8.3.5",
         "@storybook/addon-interactions": "^8.3.5",

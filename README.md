@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://app.mytonswap.com" target="blank"><img src="assets/preview.jpg" width="400" alt="MyTonSwap logo" /></a>
+  <img src="assets/preview.jpg" width="400" alt="gradient avatars logo" />
 </p>
 
 
