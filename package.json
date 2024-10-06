@@ -5,6 +5,7 @@
     "files": [
         "dist"
     ],
+    "license": "MIT",
     "main": "./dist/avatar-gradient.umd.cjs",
     "module": "./dist/avatar-gradient.js",
     "exports": {
