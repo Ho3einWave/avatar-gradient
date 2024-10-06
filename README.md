@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/preview.jpg" width="400" alt="gradient avatars logo" />
+  <img src="https://github.com/Ho3einWave/avatar-gradient/blob/main/assets/preview.jpg?raw=true" width="400" alt="gradient avatars logo" />
 </p>
 
 

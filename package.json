@@ -5,6 +5,9 @@
     "files": [
         "dist"
     ],
+    "repository": {
+        "url": "https://github.com/Ho3einWave/avatar-gradient"
+    },
     "license": "MIT",
     "main": "./dist/avatar-gradient.umd.cjs",
     "module": "./dist/avatar-gradient.js",
