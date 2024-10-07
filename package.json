@@ -13,7 +13,7 @@
         "gradient avatar"
     ],
     "repository": {
-        "url": "https://github.com/Ho3einWave/avatar-gradient"
+        "url": "git+https://github.com/Ho3einWave/avatar-gradient.git"
     },
     "license": "MIT",
     "main": "./dist/avatar-gradient.umd.cjs",
