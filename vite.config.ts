@@ -8,10 +8,10 @@ import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [
-        cssInjectedByJsPlugin(),
         tsconfigPaths(),
         react(),
         dts({ rollupTypes: true, tsconfigPath: "./tsconfig.app.json" }),
+        cssInjectedByJsPlugin(),
     ],
     build: {
         lib: {
