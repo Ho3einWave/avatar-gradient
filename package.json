@@ -15,8 +15,10 @@
         ".": {
             "import": "./dist/avatar-gradient.js",
             "require": "./dist/avatar-gradient.umd.cjs"
-        }
+        },
+        "./dist/style.css": "./dist/style.css"
     },
+    "sideEffects": false,
     "scripts": {
         "dev": "vite",
         "prebuild": "rm -rf dist",
