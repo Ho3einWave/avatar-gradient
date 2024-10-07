@@ -16,7 +16,6 @@ yarn install avatar-gradient
 ## Usage:
 ```tsx
 import { Avatar } from "avatar-gradient";
-import "avatar-gradient/dist/style.css";
 function App() {
     return (
         <div>
@@ -32,7 +31,6 @@ export default App;
 ## Customization:
 ```tsx
 import { Avatar } from "avatar-gradient";
-import "avatar-gradient/dist/style.css";
 function App() {
     return (
         <div>
