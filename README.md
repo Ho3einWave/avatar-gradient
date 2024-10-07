@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://github.com/Ho3einWave/avatar-gradient/blob/main/assets/preview.jpg?raw=true" width="400" alt="gradient avatars logo" />
+  <img src="https://github.com/Ho3einWave/avatar-gradient/blob/main/assets/preview.jpg?raw=true" width="400" alt="Avatar Gradient logo" />
 </p>
 
 
-# Gradient Avatars React
+# Avatar Gradient React
 
 
 ## Installation:

@@ -1,9 +1,16 @@
 {
     "name": "avatar-gradient",
+    "description": "Avatar Gradient - Generate random gradient avatars for react",
     "version": "0.2.0",
     "type": "module",
     "files": [
         "dist"
+    ],
+    "keywords": [
+        "react",
+        "avatar",
+        "random avatar",
+        "gradient avatar"
     ],
     "repository": {
         "url": "https://github.com/Ho3einWave/avatar-gradient"
