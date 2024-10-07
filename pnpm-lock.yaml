@@ -8,15 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@types/node':
-        specifier: ^22.7.4
-        version: 22.7.4
-      '@typescript-eslint/eslint-plugin':
-        specifier: ^8.8.0
-        version: 8.8.0(@typescript-eslint/parser@8.8.0(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.2))(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.2)
-      '@typescript-eslint/parser':
-        specifier: ^8.8.0
-        version: 8.8.0(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.2)
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -57,12 +48,21 @@ importers:
       '@storybook/test':
         specifier: ^8.3.5
         version: 8.3.5(storybook@8.3.5)
+      '@types/node':
+        specifier: ^22.7.4
+        version: 22.7.4
       '@types/react':
         specifier: ^18.3.10
         version: 18.3.11
       '@types/react-dom':
         specifier: ^18.3.0
         version: 18.3.0
+      '@typescript-eslint/eslint-plugin':
+        specifier: ^8.8.0
+        version: 8.8.0(@typescript-eslint/parser@8.8.0(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.2))(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.2)
+      '@typescript-eslint/parser':
+        specifier: ^8.8.0
+        version: 8.8.0(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.2)
       '@vitejs/plugin-react-swc':
         specifier: ^3.5.0
         version: 3.7.1(vite@5.4.8(@types/node@22.7.4))
@@ -105,6 +105,9 @@ importers:
       vite:
         specifier: ^5.4.8
         version: 5.4.8(@types/node@22.7.4)
+      vite-plugin-css-injected-by-js:
+        specifier: ^3.5.2
+        version: 3.5.2(vite@5.4.8(@types/node@22.7.4))
       vite-plugin-dts:
         specifier: ^4.2.3
         version: 4.2.3(@types/node@22.7.4)(rollup@4.24.0)(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.4))
@@ -2726,6 +2729,11 @@ packages:
   vary@1.1.2:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
+
+  vite-plugin-css-injected-by-js@3.5.2:
+    resolution: {integrity: sha512-2MpU/Y+SCZyWUB6ua3HbJCrgnF0KACAsmzOQt1UvRVJCGF6S8xdA3ZUhWcWdM9ivG4I5az8PnQmwwrkC2CAQrQ==}
+    peerDependencies:
+      vite: '>2.0.0-0'
 
   vite-plugin-dts@4.2.3:
     resolution: {integrity: sha512-O5NalzHANQRwVw1xj8KQun3Bv8OSDAlNJXrnqoAz10BOuW8FVvY5g4ygj+DlJZL5mtSPuMu9vd3OfrdW5d4k6w==}
@@ -5584,6 +5592,10 @@ snapshots:
   uuid@9.0.1: {}
 
   vary@1.1.2: {}
+
+  vite-plugin-css-injected-by-js@3.5.2(vite@5.4.8(@types/node@22.7.4)):
+    dependencies:
+      vite: 5.4.8(@types/node@22.7.4)
 
   vite-plugin-dts@4.2.3(@types/node@22.7.4)(rollup@4.24.0)(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.4)):
     dependencies:
